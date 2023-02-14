@@ -20,7 +20,7 @@ function fib(num) {
 }
 console.log(fib(3));
 
-// Declare function to apply fibonacci using iteration
+// Declare function to apply fibonacci using recursion
 function fibRec(num) {
   // Set base cases
   if (num < 1) return "Please enter positive integer number";
